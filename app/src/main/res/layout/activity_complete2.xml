@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/back1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="← 메뉴"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_gravity="center"
+        android:background="#CCCCCC"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="구매가 완료 되었습니다!"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="식권 QR코드는 보관함에서 확인 가능합니다."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pay3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="--------------------------------------------"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/pay4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="식당 이름                교수회관"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/pay5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="메뉴 이름               치즈돈까스"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/pay6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="총 금액                    6,000원"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/pay7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="메인으로 돌아가기"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/pay8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="식권 보관함 가기"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

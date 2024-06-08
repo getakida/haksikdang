@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/logo"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="백석대학교"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="맛있는 미션: 학식단"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="  학번"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:padding="10dp"
+                android:id="@+id/idText"
+                android:drawableStart="@drawable/id"
+                android:drawableLeft="@drawable/id"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorPrimary"
+                />
+
+            <EditText
+                android:inputType="textPassword"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="  비밀번호"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:padding="10dp"
+                android:id="@+id/password"
+                android:drawableStart="@drawable/passwordicon"
+                android:drawableLeft="@drawable/passwordicon"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                />
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:text="로그인"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:id="@+id/loginBtn"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="회원가입"
+                android:id="@+id/registerButton" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
